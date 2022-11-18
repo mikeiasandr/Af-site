@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components'
+import { Externo } from './container/Externo';
+import { Header } from './container/header'
+import { GlobalStyle } from './container/styles/global';
 
-function App() {
+const Title = styled.h1`
+  color: #110836;
+`
+
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/*<Header/>*/}
+      <Externo/>
+      <GlobalStyle />
+    </>
   );
 }
 
-export default App;
