@@ -12,12 +12,12 @@ import externo10 from '../../assets/externos/externo (10).jpg';
 
 import { Container, Galeria } from "./styles";
 
-export function Externo() {
+export function Estudio() {
     return(
         <Container>
-            <h1>Externos</h1>
+            <h1>Estudio</h1>
             <Galeria>
-                <div className='container-galeria'>
+            <div className='container-galeria'>
                     <div className="item-galeria ">
                         <img src={externo1} alt="" className='img-galeria' />
                     </div>

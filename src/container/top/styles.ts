@@ -1,48 +1,27 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
-    h1{
-        color: var(--font);
-        font-weight: 400;
-        font-size: 6rem;
-        text-align: center;
-        //align-items: center;
-        //max-width: 1128px;
-        margin: auto;
-
-        padding: 3rem 1rem 2.5rem;
+    p{
+        font-size: 20px;
     }
 
+    .foto-prinpal{
+        padding: -90px;
+        height: 20px;
+        display: flex;
+    }
+    text-align: center;
     padding: 0rem 0rem 0rem 0rem;
 `;
 
 export const Galeria = styled.main`
     margin: 0;
     padding: 0;
+    padding-bottom: 4rem;
     box-sizing: border-box;
-
-    .container-galeria{
-        height: 100%;
-        //width: 200px;
-        display: grid;
-        //grid-template-columns: repeat(6, 1fr,minmax(1080px,1fr));;
-        //grid-template-columns: repeat(6, 1fr);
-        //grid-template-columns: minmax(720px , 1fr);
-        grid-auto-rows: 8rem;
-        grid-auto-flow: column;
-        grid-auto-columns: minmax(240px,1fr);
-        grid-template-columns: 206px 206px 270px 394px 394px;
-        grid-template-rows: 300px 100px 100px ;
-        grid-gap: 0.35rem;
-        overflow-y: hidden;
-        //height: 593px;
-        
-        /*grid-template:
-            "ft4" 300px
-            "ft4" 30px*/
-        
-            
-    }
+    width: 100px;
+    height: 100px;
+   
     
     
 

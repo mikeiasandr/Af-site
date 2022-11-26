@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-    background: var(--header);
+    
+   //background: var(--header);
+    //padding: 0.5rem;
+    height: 23rem;
 
-    h1 {
+    h1, h3 {
         font-weight: 400;
+        position: relative;
     }
 
     a:link {
@@ -21,7 +25,16 @@ export const Container = styled.header`
         text-decoration:none;
     }
 
-    img{
+    .foto-principal{
+        display: block;
+        position: absolute;
+        height: 25rem;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0rem -80rem;
+    }
+
+    .af{
         width: 3rem;
         filter: invert(1);
     }

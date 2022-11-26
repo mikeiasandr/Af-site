@@ -6,11 +6,11 @@ export const Container = styled.main`
         font-weight: 400;
         font-size: 6rem;
         text-align: center;
-        //align-items: center;
+        align-items: center;
         //max-width: 1128px;
         margin: auto;
 
-        padding: 3rem 1rem 2.5rem;
+        padding: 5rem 5rem;
     }
 
     padding: 0rem 0rem 0rem 0rem;
@@ -35,13 +35,12 @@ export const Galeria = styled.main`
         grid-template-rows: 300px 100px 100px ;
         grid-gap: 0.35rem;
         overflow-y: hidden;
+        padding-bottom: 5rem;
         //height: 593px;
         
         /*grid-template:
             "ft4" 300px
             "ft4" 30px*/
-        
-            
     }
     
     
