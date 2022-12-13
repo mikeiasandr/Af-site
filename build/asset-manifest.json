@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "./static/js/main.5a20a814.js",
+    "static/media/externo (10).jpg": "./static/media/externo (10).7301690184b222f83f62.jpg",
+    "static/media/externo (1).jpg": "./static/media/externo (1).541cc6c8d7ad19b882cd.jpg",
+    "static/media/externo (6).jpg": "./static/media/externo (6).137ca201f3422136e43c.jpg",
+    "static/media/externo (2).jpg": "./static/media/externo (2).61524447dff9872c5983.jpg",
+    "static/media/externo (9).jpg": "./static/media/externo (9).32f06b41a32816d150c5.jpg",
+    "static/media/externo (5).jpg": "./static/media/externo (5).281d86440403e6e41bd2.jpg",
+    "static/media/externo (4).jpg": "./static/media/externo (4).9423daf911a343542f1a.jpg",
+    "static/media/externo (8).jpg": "./static/media/externo (8).27f43289f28087aca82f.jpg",
+    "static/media/logo.png": "./static/media/logo.e5eb44424d7c14d4817d.png",
+    "static/media/externo (7).jpg": "./static/media/externo (7).8fe87e28ecabc6a4fd6d.jpg",
+    "static/media/externo (3).jpg": "./static/media/externo (3).d162efef6bf6264b2462.jpg",
+    "static/media/angela.jpeg": "./static/media/angela.fd3fa3b74879f1bfed41.jpeg",
+    "static/media/whatsappLogo.svg": "./static/media/whatsappLogo.e0805be6e07b07df02cc5e12e0c9a8b0.svg",
+    "index.html": "./index.html",
+    "main.5a20a814.js.map": "./static/js/main.5a20a814.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5a20a814.js"
+  ]
+}
