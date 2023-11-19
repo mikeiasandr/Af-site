@@ -1,14 +1,10 @@
-import styled from 'styled-components'
 import { Baseboard } from './container/baseboard';
 import { Estudio } from './container/estudio';
+//import { Gestacao } from './container/Gestacao';
 import { Externo } from './container/Externo';
 import { Header } from './container/header'
 import { GlobalStyle } from './container/styles/global';
 import { Inicial } from './container/top';
-
-const Title = styled.h1`
-  color: #110836;
-`
 
 export function App() {
   return (
@@ -16,8 +12,9 @@ export function App() {
       <Header/>
       <Inicial/>
       <Externo/>
+      {/*<Gestacao/>*/}
       <Estudio/>
-      <Baseboard/>
+      <Baseboard/> 
       <GlobalStyle />
     </>
   );

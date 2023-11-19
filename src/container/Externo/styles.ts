@@ -10,8 +10,14 @@ export const Container = styled.main`
         //max-width: 1128px;
         margin: auto;
 
-        padding: 3rem 1rem 2.5rem;
+        padding: 3rem 0rem 2.5rem;
     }
+    @media(max-width: 480px){
+        h1{
+            font-size: 4rem;
+        }
+    }
+
 
     padding: 0rem 0rem 0rem 0rem;
 `;
@@ -21,7 +27,70 @@ export const Galeria = styled.main`
     padding: 0;
     box-sizing: border-box;
 
+    .back{
+        height: 100%;
+        z-index: 2;
+        position: absolute;
+        padding-top: 250px;
+        padding-right: 0.5rem;
+        height: 17.5rem;
+
+        filter: invert(1);
+        transform: scaleX(-1);
+        cursor: pointer;
+    }
+    @media(max-width: 1024px){
+        .back{
+            height: 19.5rem
+        }
+    }
+    @media(max-width: 720px){
+        .back{
+            height: 19.5rem
+        }
+    }
+    @media (max-width: 480px){
+        .back{
+            height: 19.5rem
+        }
+    }
+
+    .next{
+        display: block;
+        z-index: 2;
+        position: absolute;
+        padding-top: 250px;
+        padding-right: 0.5rem;
+        height: 17.5rem;
+        filter: invert(1);
+        margin-left: 97%;
+        cursor: pointer;
+    }
+    @media(max-width: 1024px){
+        .next{
+            height: 19.5rem;
+            margin-left: 93%;
+        }
+    }
+    @media(max-width: 720px){
+        .next{
+            height: 19.5rem;
+            margin-left: 93%;
+        }
+    }
+    @media (max-width: 480px){
+        .next{
+            height: 19.5rem;
+            margin-left: 93%;
+        }
+    }
+
+
+
+
     .container-galeria{
+        z-index: 1;
+        //position: absolute;
         height: 100%;
         //width: 200px;
         display: grid;
@@ -32,7 +101,7 @@ export const Galeria = styled.main`
         grid-auto-flow: column;
         grid-auto-columns: minmax(240px,1fr);
         grid-template-columns: 206px 206px 270px 394px 394px;
-        grid-template-rows: 300px 100px 100px ;
+        grid-template-rows: 300px 100px 100px;
         grid-gap: 0.35rem;
         overflow-y: hidden;
         //height: 593px;
@@ -92,10 +161,14 @@ export const Galeria = styled.main`
         grid-column: span 2;
     }
 
-    @media(max-width: 720px){
+    @media(max-width: 480px){
         .container-galeria{
-            grid-template-columns: repeat(4, 1fr);
-            grid-auto-rows: 15rem;
+            grid-template-columns: 130px 130px 170px 274px 274px;
+            grid-template-rows: 300px 100px 100px;
+            //grid-template-columns: 150px 150px 200px 294px 294px;
+            //grid-template-columns: repeat(1, 1fr);
+            //grid-auto-rows: 15rem;
         }
     }
+    
 `;

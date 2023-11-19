@@ -9,7 +9,7 @@ export function Header() {
             <Content>
                 <img src={logoimg} alt="af"  className='af'/>
                 <h1>Angela Fotografia</h1>
-                <h3> <a href="https://wa.me/69996032345">Contato</a></h3>
+                <h3> <a href="https://wa.me/69996032345" target='_blanck'>Contato</a></h3>
             </Content>
         </Container>
     )

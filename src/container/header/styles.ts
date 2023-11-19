@@ -12,6 +12,7 @@ export const Container = styled.header`
     }
 
     a:link {
+        color:var(--font);
         text-decoration:none;
     }
 
@@ -32,6 +33,22 @@ export const Container = styled.header`
         width: 100%;
         object-fit: cover;
         object-position: 0rem -80rem;
+    }
+
+    @media(max-width: 1024px){
+        .foto-principal{
+            object-position: 0rem -45rem;
+        }
+    }
+    @media(max-width: 720px){
+        .foto-principal{
+            object-position: 0rem -38rem;
+        }
+    }
+    @media(max-width: 480px){
+        .foto-principal{
+            object-position: 0rem -16rem;
+        }
     }
 
     .af{
